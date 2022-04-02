@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'main.css') }}">
+	</head>
+	<header style="background-color: rgb(86, 215, 255);">
+		<div style="align-items: center; align-content: center; margin-left: 20%;">
+		
+			<h1 style="color:#16325e;">ORGAN TRANSPLANTATION AND PROCUREMENT SYSTEM</h1>
+		</div>
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="margin:0 0 900 0;">
+			<ol class="carousel-indicators">
+			  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+			  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+			</ol>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="{{url_for('static', filename = 'ORGAN-TRANSPLANTATION-CENTERS-main.jpg')}}" class="d-block w-100" height= "400" >
+				<div class="carousel-caption d-none d-md-block">
+				  <h5 style="color: black;">“You can’t live a perfect day without doing something for someone who will never be able to repay you.” </h5>
+				  <p style="color: black;">-John Wooden</p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="{{url_for('static', filename = 'Treating.jpg')}}" class="d-block w-100" height= "400" >
+				<div class="carousel-caption d-none d-md-block">
+				  <h5>There are far more people in need of transplant than there are people willing to donate an Organ. </h5>
+				  <p>WEB MD</p>
+				</div>
+			  </div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		</header>
+		  <body style="background-color: rgb(86, 215, 255);">
+			<div class="container">
+				<div class="row">
+				  <div class="col">
+					  <h1>ADMIN PORTAL</h1>
+					<form class="container" action = "/login" method = "POST">
+						<div class="form-group">
+							<label>Admin's Username</label>
+							<input name = "username" type="text" class="form-control" id="inputUsername" aria-describedby="emailHelp" placeholder="Enter username">
+						</div>
+						<div class="form-group">
+							<label>Password</label>
+							<input name = "password" type="password" class="form-control" id="inputPassword" placeholder="Password">
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+
+				  </div>
+				  
+				
+				  <div class="col">
+				  </div>
+				  
+				</div>
+			  </div>
+
+	</body>
+	
+</html>

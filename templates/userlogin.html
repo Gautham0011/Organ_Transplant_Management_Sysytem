@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORGAN DONATION AND PROCUREMENT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+    <script src="https://kit.fontawesome.com/7947083dcd.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h2>Organ Transplant Management System</h2>
+    <div class="container" id="container">
+      <!-- ~~~~~~~~~~~~~~~~~~~~Signup container~~~~~~~~~~~~~~~~~~~~~ -->
+      <div class="form-container sign-up-container">
+        <form action = /add_User method = 'POST'>
+          <h1>Sign Up</h1>
+          <input type="number" placeholder="User ID" name = "User_ID"/>        
+          <input type="text" pattern="[A-Za-z]+" placeholder="Name" name = "Name"/>        
+          <input type="dob" placeholder="Date of Birth" name = "Date_of_Birth"/>
+          <input type="number" pattern="[0-1]" placeholder="Medical Insurance" name = "Medical_insurance"/>
+          <input type="medicalhis" pattern="[A-Za-z]+" placeholder="Medical History" name = "Medical_history"/>  
+          <input type="street" placeholder="Street" name = "Street"/>  
+          <input type="city" pattern="[A-Za-z]+" placeholder="City" name = "City"/>         
+          <input type="state" pattern="[A-Za-z]+" placeholder="State" name = "State"/>
+          <button>Sign Up</button>
+        </form>
+      </div>
+      <!-- ****************SIgnIn Container************************* -->
+      <div class="form-container sign-in-container">
+        <form class ="container" action = "/userlogin" method = "POST">
+          <h1>Sign in</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your account</span>
+          <input type="text" placeholder="User ID" name = "username"/>
+          <input type="password" placeholder="Password" name = "password"/>
+          <a href="#">Forgot your password?</a>
+          <div class="bg1" action="/login" method="POST">
+            <p><a href="{{ url_for('login') }}" style="text-decoration: none" >Click to Login as ADMIN</a></p>
+          </div>
+          <button>Sign In</button>
+        </form>
+      </div>
+
+      <!-- ~~~~~~~~~~~~~~OverLay~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us please login with your personal info</p>
+            <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>New Here?</h1>
+            <p>Enter your personal details and start journey with us</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<script src="static\1_login.js"></script>
+
+<footer>
+	<p>
+		Created by Gautham
+	</p>
+</footer>
+  </body>
+</html>
