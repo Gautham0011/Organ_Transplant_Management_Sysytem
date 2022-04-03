@@ -18,6 +18,10 @@ recently deceased donor. The work of such organizations includes identifying the
 candidates for the available organs and to coordinate with the medical institutions to decide
 on each organ recipient.
 
+-----------------------------------------------------------------------------------------------------
+
+
+
 Moreover, ORGAN TRANSPLANT MANAGEMENT
 SYSTEM is three tier architecture system which involves client tier, business tier and database
 management tier. The interfaces for ORGAN TRANSPLANT MANAGEMENT SYSTEM have been
@@ -26,21 +30,30 @@ also has been tested and evaluated in real life. This ORGAN TRANSPLANT MANAGEMEN
 SYSTEM will help to improve the performance of current situation and overcome the problems that
 arise,,nowdays
 
+------------------------------------------------------------------------------------------------------
+
 Go through Gautham_OTMS_report.pdf to understand more
 It has complete information regarding the project and its Implementation
 
-E-R DIAGRAM
+-----------------------------------------------------------------------------------------------------
+
+# E-R DIAGRAM
 
 ![A Final ER Diagram](https://user-images.githubusercontent.com/85282195/161382801-01019020-bcbc-4728-9502-4c737e6ea50d.png)
 
-
-WEBSITE
+------------------------------------------------------------------------------------------------------
+# WEBSITE
 
 ![IMG_20220123_152719](https://user-images.githubusercontent.com/85282195/161382963-1a235a45-4e54-483e-a704-24a1337f1ad0.jpg)
+-----------------------------------------------------------------------------------------------------------------------------
 ![IMG_20220123_153051](https://user-images.githubusercontent.com/85282195/161382966-97b1f9cd-3706-463b-b2e4-f3ad6d91f578.jpg)
+-----------------------------------------------------------------------------------------------------------------------------
 ![IMG_20220123_152617](https://user-images.githubusercontent.com/85282195/161382968-97bdf14f-01f6-4a2e-8290-b2389ba36903.jpg)
+-----------------------------------------------------------------------------------------------------------------------------
 ![IMG_20220123_152633](https://user-images.githubusercontent.com/85282195/161382969-ca12bf93-fc91-4d68-b2b1-e30ecdafe3f4.jpg)
+-----------------------------------------------------------------------------------------------------------------------------
 ![IMG_20220123_152645](https://user-images.githubusercontent.com/85282195/161382971-1b4d1b2b-b94f-4619-8c39-8eaf77fc5069.jpg)
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 The ORGAN TRANSPLANT MANAGEMENT SYSTEM is database management system
@@ -57,7 +70,7 @@ An analysis study has been done based on the current manual system and all the p
 and requirements have been identified.
 
 
-STATISTICS
+# STATISTICS
 
 ![success](https://user-images.githubusercontent.com/85282195/161382867-9001d8a5-92b3-4c4d-90f8-1f5a2c26b4e4.jpeg)
 ![Patient_stat](https://user-images.githubusercontent.com/85282195/161382878-1e5b12d0-234f-4111-9ca9-95856bc2c182.jpeg)
